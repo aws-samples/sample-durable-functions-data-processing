@@ -1,0 +1,4 @@
+pytest==9.2.0
+# Local tooling: scripts/generate_flights.py --bucket and scripts/demo_region.py
+# talk to AWS via boto3. (Lambda bundles its own boto3 at deploy time.)
+boto3>=1.42.1
