@@ -1,0 +1,18 @@
+*.swp
+__pycache__
+.pytest_cache
+.venv
+*.egg-info
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Generated sample data (created by scripts/generate_flights.py)
+data/
+
+# Output of `aws lambda invoke`
+response.json
+
+# macOS
+.DS_Store
